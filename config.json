@@ -1,0 +1,49 @@
+{
+  "appleTaskConfig": {
+    "cronExpressions": "*/4 * * * * ?",
+    "country": "JP",
+    "location": "142-0064",
+    "deviceCodeList": [
+      {
+        "deviceCode": "MYN33J/A",
+        "storeWhiteList": [
+          "新宿",
+          "表参道",
+          "銀座",
+          "渋谷",
+          "新宿",
+          "丸の内"
+        ],
+        "pushConfigs": [
+          {
+            "barkPushUrl": "https://api.day.app/push",
+            "barkPushToken": "m5C36GYnuB5c3jAnw6JB94",
+            "barkPushSound": "multiwayinvitation.caf",
+            "feishuBotWebhooks": "",
+            "feishuBotSecret": ""
+          }
+        ]
+      }
+      // {
+      //   "deviceCode": "MYN23J/A",
+      //   "storeWhiteList": [
+      //     "新宿",
+      //     "表参道",
+      //     "銀座",
+      //     "渋谷",
+      //     "新宿",
+      //     "丸の内"
+      //   ],
+      //   "pushConfigs": [
+      //     {
+      //       "barkPushUrl": "https://api.day.app/push",
+      //       "barkPushToken": "m5C36GYnuB5c3jAnw6JB94",
+      //       "barkPushSound": "multiwayinvitation.caf",
+      //       "feishuBotWebhooks": "",
+      //       "feishuBotSecret": ""
+      //     }
+      //   ]
+      // }
+    ]
+  }
+}
